@@ -1,0 +1,4 @@
+考虑到是python国内网络的问题，这时我们用国内的镜像源来加速。
+pip install 包名 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+这个是豆瓣源
+--trusted-host pypi.douban.com 这是为了获得ssl证书的认证，要不然会报错
