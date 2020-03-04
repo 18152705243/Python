@@ -1,0 +1,3 @@
+1.ModuleNotFoundError: No module named 'pyqt5'问题
+  在已有项目的最后面找到External Libraries ，然后找到venv目录，把pyvenv.cfg文件中的如下参数改成true
+  include-system-site-packages = true
